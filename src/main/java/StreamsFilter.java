@@ -8,10 +8,10 @@ import org.apache.kafka.streams.kstream.KStream;
 
 public class StreamsFilter {
 
-    private final static String APPLICATION_NAME = "streams-filter-application";
-    private final static String BOOTSTRAP_SERVER = "localhost:9092";
-    private final static String STREAM_LOG = "stream_log";
-    private final static String STREAM_LOG_FILTER = "stream_log_filter";
+    private static final String APPLICATION_NAME = "streams-filter-application";
+    private static final String BOOTSTRAP_SERVER = "localhost:9092";
+    private static final String STREAM_LOG = "stream_log";
+    private static final String STREAM_LOG_FILTER = "stream_log_filter";
 
     public static void main(String[] args) {
         Properties props = new Properties();
